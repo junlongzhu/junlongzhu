@@ -47,7 +47,7 @@
       </nav>
       <nav id="sub-nav">
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -57,6 +57,45 @@
 </header>
       <div class="outer">
         <section id="main">
+  
+    <article id="post-My-New-Post" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/03/28/My-New-Post/" class="article-date">
+  <time datetime="2016-03-28T09:06:15.000Z" itemprop="datePublished">2016-03-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/03/28/My-New-Post/">object file was built for newer iOS version (8.3) than being linked (7.0)</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>###Xcode7编译出现警告object file was built for newer iOS version (8.3) than being linked (7.0)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ld: warning: object file (/Users/admin/Library/Developer/Xcode/DerivedData/AAA-bdkvsufrkfhcucheeiullzqzpsft/Build/Products/Debug-iphonesimulator/libMJRefresh.a(MJRefreshGifHeader.o)) was built for newer iOS version (8.0) than being linked (7.0)</span><br></pre></td></tr></table></figure></p>
+<p><strong>解决方案：</strong></p>
+<p><code>在Build Settings -&gt; other lingkr Flags 中添加-w 就可以解决了</code></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/03/28/My-New-Post/" data-id="cimbrvrrq0000c9a9b0y46vk6" class="article-share-link">Partager</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
   
     <article id="post-zhujunlonog" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -96,7 +135,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/03/10/zhujunlonog/" data-id="cilnct33d0001v6a98dls23dp" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/03/10/zhujunlonog/" data-id="cimbrvrsi0001c9a9zhsbe8pv" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -141,7 +180,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/03/10/hello-world/" data-id="cilnct3360000v6a9woywym6w" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/03/10/hello-world/" data-id="cimbrvrsx0002c9a97azclmuz" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -160,7 +199,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2016 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
